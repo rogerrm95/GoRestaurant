@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components';
+import { DivFoodStyledProps } from '../../types';
 
-export const Container = styled.div`
+
+export const Container = styled.div<DivFoodStyledProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
